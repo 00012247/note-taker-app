@@ -1,1 +1,2 @@
-# note-taker-app
+This app was developed with Node JS and Exprsess JS. It can present your notes that you  write in Input.
+When you enter word in input and click the submit, Post command begins to work and  the data transfer to below in list items.Firstly data was sent to node.js route, and it was saved by using "save()" function and it log out "SuccesFully saved!" In order to share the data to different lists, Foreach() method was used. That method renders every time you click the "Add notes" button. Delete button is workin with the help od ids of lists. When you click delete button it filters the data. The clicked data will mot be filtered with other data as a result it will be deleted from database. The delete() function differ the lists by thier ids.
